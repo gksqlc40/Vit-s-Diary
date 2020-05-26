@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
- <title>Vit' Diary Main Page</title>
- <style>
+  <head>
+    <meta charset="utf-8" />
+    <title>Vit' Diary Main Page</title>
+    <style>
+      a {
+        text-decoration: none;
+        color: rgb(214, 119, 85);
+      }
+      body {
+        margin: 0px;
+      }
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding: 20px;
+        margin: 0px;
+      }
+      h2 {
+        margin-bottom: 40px;
+        font-size: 32px;
+      }
+      h3 {
+        margin: 40px;
+        font-size: 24px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #grid ul {
+        border-right: 1px solid black;
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+        padding-left: 35px;
+        border-bottom-width: 0px;
+      }
 
-a {
-    text-decoration: none;
-    color: rgb(214, 119, 85);
-}
-h1 {
-    text-align: center;
-    border-bottom: 2px solid black;
-    padding : 20px;
-    margin: 5px;
-}
-ul {
-    border-right: 2px black solid;
-    margin: 0px;
-    width : 150px;
-    padding : 10px;
-    padding-left : 25px;
+      #grid #main {
+        text-align: center;
+        padding-left: 25px;
+      }
+    </style>
+  </head>
 
-}
-h2{
-    text-align: center;
-}
- </style>
- </head>
+  <body>
+    <h1><a href="Vit's Diary.html" style="color: brown;"> Vit's Diary</a></h1>
 
-<body>
- <h1><a href = "Vit's Diary.html" style = "color: brown;"> Vit's Diary</a></h1>
+    <div id="grid">
+      <ul>
+        <li><a href="200515_Diary.html"> 200515 Diary </a></li>
+        <li><a href="200518_Diary.html"> 200518 Diary </a></li>
+        <li><a href="200520_Diary.html"> 200520 Diary </a></li>
+        <li><a href="200524_Diary.html"> 200524 Diary </a></li>
+      </ul>
+      <div id="main">
+        <h2>Welcome my Diary</h2>
+        <p>
+          It's so funny Diary I'm Guitarlist, Composer, a Part-time job in
+          restaurant and teacher
+        </p>
+        <h3>Thanks! And enjoy</h3>
+      </div>
+    </div>
 
- <ul>
- <li><a href = "200515_Diary.html"> 200515 Diary </a> </li>
- <li><a href = "200518_Diary.html"> 200518 Diary </a> </li>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/5ebfad7e8ee2956d73a1ad7a/default";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
 
- </ul>
-<br>
-<h2>Welcome my Diary</h2> <br>
-It's so funny Diary <br>
-I'm Guitarlist, Composer, a Part-time job in restaurant and teacher
-<br>
-<br>
-<h3>Thanks! And enjoy</h3>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-166862280-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5ebfad7e8ee2956d73a1ad7a/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-166862280-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-166862280-1');
-</script>
-
-</body>
+      gtag("config", "UA-166862280-1");
+    </script>
+  </body>
 </html>
